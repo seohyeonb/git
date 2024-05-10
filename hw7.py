@@ -19,8 +19,6 @@ def find(shoppiong_bag):
   res=input('장바구니에서 확인하고자 하는 상품은?')
   if res in shopping_bag:
     print(f'{res}는 장바구니에 {shopping_bag[res]}개 있습니다')
-  else:
-    print(f'{res}는 장바구니에 없습니다')
 
 
 buy(shopping_bag)
